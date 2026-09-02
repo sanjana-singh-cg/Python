@@ -60,5 +60,66 @@ print(text[7:11])
 print(text[0:11])
 print(text[0:5])
 print(text[::2])
+print(len(text))
 text="python"
 print(text[0:0:-1])
+print(text[1:5])
+print(len(text))
+a="sanjana"
+b=" singh"
+print(a+b)
+name="sanjana"
+age=20
+city="patna"
+programming_language="python"
+print(f"my name is {name}, my age is {age}, i live in {city}, my favorite programming language is {programming_language}")
+a="python"
+b=5
+print(a+str(b))
+a="s"
+print(a*5)
+print(a*3)
+a="*"
+print(a*5)
+text="python programming"
+print(text.upper())
+print(text.lower())
+print(text.title())
+print(text.capitalize())
+print(text.swapcase())
+a="Python"
+b="python"
+c=a.lower()==b
+print(c)
+a="python is a programming language"
+print("python" in a)
+print("programming" in a)
+print("java" in a)
+print("language" in a)
+print(a.find("python"))
+print(a.find("programming"))
+print(a.find("java"))
+print(a.find("language"))
+a="banana"
+print(a.count("a"))
+print(a.count("b"))
+print(a.count("n"))
+filename="student_notes.pdf"
+print(filename.startswith("student"))
+print(filename.endswith(".pdf"))
+print(filename.endswith(".txt"))
+a="I am learning Java"
+print(a.replace("Java","python"))
+a="apple apple apple"
+print(a.replace("apple","banana"))
+print(a.replace("apple","banana",1))
+text="python"
+a=text.upper()
+print(text)
+print(a)
+text=" python programming "
+print(text.strip())
+print(text.lstrip())
+print(text.rstrip())
+
+
