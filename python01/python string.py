@@ -121,5 +121,14 @@ text=" python programming "
 print(text.strip())
 print(text.lstrip())
 print(text.rstrip())
-
+a="python is easy to learn"
+print(a.split())
+b=["python","is","easy"]
+print(" ".join(b))
+print("-".join(b))
+print("/".join(b))
+a=10
+b=20
+c=a+b
+print(f"the sum is {c}")
 
