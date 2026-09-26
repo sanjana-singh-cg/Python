@@ -150,8 +150,15 @@
     #  print("no profit and no loss") 
 
 elec_bill=int(input("enter your unit: ").split()[0])
-if elec_bill>=100:
-     print()
+if elec_bill<=100:
+     print(elec_bill*5)
+elif 100<elec_bill<200:
+     print(elec_bill*7)
+elif elec_bill>200:
+     print(elec_bill*10)
+
+
+
 
 
 
@@ -221,19 +228,16 @@ if elec_bill>=100:
 #      if acc-withd>=500 :
 #          print(f"remaining balance: {acc-withd}")
 
-# username=input("enter your username: ").split()
+# username=input("enter your username: ")
 # password=int(input("enter your password: ").split()[0])
-# if username=="sanjana-singh":
-#      if password==123456:
-#           print("Login successful")
+# if username=="sanjana-singh" and password==123456:
+#     print("Login successful")
 
-# elif username=="sanjana-singh":
-#      if password!=123456:
-#           print("wrong password")
+# elif username=="sanjana-singh" and password!=123456:
+#     print("wrong password")
 
-# elif username!="sanjana-singh":
-#      if password==123456:
-#           print("user not found")
+# elif username!="sanjana-singh" and password==123456:
+#     print("user not found")
 
 # student_age=int(input("enter your age: ").split()[0])
 # marks=int(input("enter your marks: ").split()[0])
