@@ -93,6 +93,19 @@
 #         print("*",end="")
 #     print()
     
+upercase=2
+lowercase=3
+digit=3
+space=2
+special=3
+if upercase>lowercase and upercase>digit and upercase>space and upercase>special:
+    print(f"upercase - {upercase}")
+elif lowercase>upercase and lowercase>digit and lowercase>space and lowercase>special:
+    print(f"lowecase - {lowercase}")
+elif digit>upercase and digit>lowercase and digit>space and digit>special:
+    print(f"digit - {digit}")
+elif special>lowercase and special>digit and special>space and special>upercase:
+    print(f"special - {special}")
 
 
   
